@@ -21,9 +21,9 @@ public async static Task<IActionResult> Run(HttpRequest req, IAsyncCollector<Sen
 
     var message = new SendGridMessage();
     
-    message.AddTo("yuriburger@outlook.com");
+    message.AddTo("xyz@outlook.com");
     message.AddContent("text/html", body);
-    message.SetFrom("yburger@me.com");
+    message.SetFrom("xyz@domain.com");
     message.SetSubject(subject);
 
     await messages.AddAsync(message); 

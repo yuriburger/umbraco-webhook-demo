@@ -15,8 +15,8 @@
         "type": "sendGrid",
         "name": "messages",
         "apiKey": "SGKEY",
-        "to": "yuriburger@outlook.com",
-        "from": "yburger@me.com",
+        "to": "xyz@outlook.com",
+        "from": "xyz@domain.com",
         "subject": "New deployment!",
         "direction": "out"
       }
