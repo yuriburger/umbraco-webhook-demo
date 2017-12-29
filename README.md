@@ -1,5 +1,4 @@
 # umbraco-webhook-demo
-Umbraco Webhook Demo
 
 Umbraco allows you to setup post deployment webhooks and you can use these to perform all kinds of post deployment tasks (notifying community members, announcement on Slack channels, signaling a monitoring application, etc.). This source code is part of a blogpost that will trigger custom code in Azure that sends out a simple email notification, but that can easily be extended into more complex scenarios.
 
